@@ -1,0 +1,22 @@
+{
+    "name": "lh0906/dynamodb_php",
+    "description": "DynamoDB操作封装",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lh0906",
+            "email": "a729882318@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aws/aws-sdk-php": "^3.70",
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DynamoDB\\": "dynamodb_php"
+        }
+    }
+}
