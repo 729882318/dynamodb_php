@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DynamoDB\\": "dynamodb_php"
+            "DynamoDB\\": "dynamodb_php/"
         }
     }
 }
